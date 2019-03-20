@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Music Station</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+  <nav class="" id="teste" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo center"><img class="materialboxed" src="imagens/MusicStation.png"></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#"></a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="#"></a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons"></i></a>
+    </div>
+  </nav>
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br>
+      <div class="row center">
+        <h5 class="header col s12 light">Uma nova forma de adicionar e encontrar suas músicas favoritas.</h5>
+      </div>
+
+      <!-- Inputs Musics -->
+      <div class="row">
+        <form class="col s12">
+          <div class="row-input">
+            <div class="input-field col s4">
+              <input placeholder="" id="autor" type="text">
+              <label>Autor</label>
+            </div>
+            <div class="input-field col s4">
+              <input placeholder="" id="musica" type="text">
+              <label>Nome da Música</label>
+            </div>
+            <div class="input-field col s4">
+              <input placeholder="" id="duracao" type="text">
+              <label>Duração</label>
+            </div>
+          </div>
+          <span class="center" id="erro-preenchimento"></span>
+      
+      <div class="row center">
+        <a href="#" id="button-adiciona" class="btn-large waves-effect waves-light blue" >Adicionar Nova Música</a>
+      </div>
+
+      <section class="musicas">
+        <h3 class="center">Músicas</h3>
+        <table class="centered bordered" id="tabela">
+            <thead>
+                <tr>
+                    <th>Autor</th>
+                    <th>Música</th>
+                    <th>Duração</th>
+                </tr>
+            </thead>
+            <tbody>                    
+            </tbody>
+        </table>
+      <br><br>
+
+    </div>
+  </div>
+
+  <div class="row center">
+      <a href="#" id="button-lista" class="btn-large waves-effect waves-light blue" >Listar Músicas Cadastradas</a>
+    </div>
+
+  <div class="container">
+    <div class="section">
+
+  <footer class="page-footer" id="rodape">
+
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <h5 class="white-text" id="titulo">MusicStation</h5>
+          
+          <p class="grey-text text-lighten-4" id="instrucoes">Desenvolvido para atender solicitação de teste para vaga de Desenvolvedor.</p>
+          <p class="grey-text text-lighten-4" id="instrucoes">Para utilizar o sistema, basta acrescentar uma música de sua preferência com todos os requisitos preenchidos e clicar em "Adicionar Nova Música".</p>
+          <p class="grey-text text-lighten-4" id="instrucoes">É possível também, listar uma pré seleção de músicas clicando no botão "Listar Músicas Cadastradas", o sistema já traz ordenado por Autor.</p>
+          <p class="grey-text text-lighten-4" id="instrucoes">Meu perfil no LinkedIn para futuros contatos:  https://www.linkedin.com/in/leandro-ribeiro-581b4562/</p>
+         
+        </div>
+      </div>
+
+    <div class="footer-copyright">
+      <div class="container" id="instrucoes">
+      Utilizado <a id="titulo" href="http://materializecss.com">Materialize</a> para agilizar o Desenvolvimento do HTML de forma responsiva e com material design.
+      </div>
+    </div>
+  </footer>
+  
+
+  <!--  Scripts-->
+ 
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.12/jquery.mask.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.12/jquery.mask.min.js"></script>
+
+  <script src="js/list.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src="js/musicas.js"></script>
+
+
+  </body>
+</html>

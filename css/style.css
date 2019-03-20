@@ -1,0 +1,46 @@
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+#logo-container{
+  color: #CDA34F;
+}
+
+nav{
+  background-color: #E9E7DA;
+}
+
+#button-adiciona, #button-lista{
+  background-color: #373F27 !important;
+  color:#CDA34F;
+}
+
+#rodape{
+  background-color: #E9E7DA;
+}
+
+.input-field input:focus + label {
+  color: #636B46 !important;
+}
+
+.row .input-field input:focus {
+  border-bottom: 1px solid#636B46 !important;
+  box-shadow: 0 1px 0 0 #636B46 !important
+}
+
+img {
+  border-style: none;
+  margin-top: -40px;
+}
+
+#titulo{
+  color: #CDA34F !important;
+}
+
+#instrucoes{
+ color:#636B46 !important;
+}
