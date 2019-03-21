@@ -60,7 +60,7 @@ function limpaCampos(){
 function listaMusicas(){
     
     let lstmsc = {autor:["Queen","Kiss","Gabriel Diniz","Slaves","Emarosa","Foo Fighters","Linkin Park","CPM22"], 
-                  musica:["Somebody to Love","I wanna Rock N Roll All Night", "O nome dela é Jennifer","The Fire Down Below","We are Life","The Pretender","Numb","Dias Atrás"], 
+                  musica:["The Fire Down Below","Somebody to Love", "Numb","I wanna Rock N Roll All Night","O nome dela é Jennifer","The Pretender","We are Life","Dias Atrás"], 
                   duracao:["03:30","04:30","02:34","04:07","04:01","04:31","03:07","04:36"]};
 
     lstmsc.autor.sort().reverse();
